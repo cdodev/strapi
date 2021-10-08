@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/soar-pages",
+      "handler": "soar-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/soar-pages/count",
+      "handler": "soar-page.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/soar-pages/:id",
+      "handler": "soar-page.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/soar-pages",
+      "handler": "soar-page.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/soar-pages/:id",
+      "handler": "soar-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/soar-pages/:id",
+      "handler": "soar-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

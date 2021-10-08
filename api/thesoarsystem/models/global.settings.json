@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "globals",
+  "collectionName": "globals-soar",
   "info": {
-    "name": "Soar Global",
+    "name": "Global Page",
     "description": ""
   },
   "options": {
