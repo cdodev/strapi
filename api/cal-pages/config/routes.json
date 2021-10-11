@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cal-pages",
+      "handler": "cal-pages.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cal-pages/count",
+      "handler": "cal-pages.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cal-pages/:id",
+      "handler": "cal-pages.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cal-pages",
+      "handler": "cal-pages.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cal-pages/:id",
+      "handler": "cal-pages.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cal-pages/:id",
+      "handler": "cal-pages.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
