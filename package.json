@@ -9,7 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "husky": "^7.0.4"
+  },
   "dependencies": {
     "knex": "0.21.18",
     "pg": "^8.6.0",
