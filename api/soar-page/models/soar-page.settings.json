@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "soar_pages",
+  "collectionName": "b60_pages",
   "info": {
-    "name": "SoarPage",
+    "name": "B60Page",
     "description": ""
   },
   "options": {

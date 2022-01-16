@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "soar-global",
+  "collectionName": "b60-global",
   "info": {
-    "name": "SOAR Global",
+    "name": "B60 Global",
     "description": ""
   },
   "options": {
