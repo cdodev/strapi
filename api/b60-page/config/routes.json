@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/soar-pages",
-      "handler": "soar-page.find",
+      "path": "/b60-pages",
+      "handler": "b60-page.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/soar-pages/count",
-      "handler": "soar-page.count",
+      "path": "/b60-pages/count",
+      "handler": "b60-page.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/soar-pages/:id",
-      "handler": "soar-page.findOne",
+      "path": "/b60-pages/:id",
+      "handler": "b60-page.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/soar-pages",
-      "handler": "soar-page.create",
+      "path": "/b60-pages",
+      "handler": "b60-page.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/soar-pages/:id",
-      "handler": "soar-page.update",
+      "path": "/b60-pages/:id",
+      "handler": "b60-page.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/soar-pages/:id",
-      "handler": "soar-page.delete",
+      "path": "/b60-pages/:id",
+      "handler": "b60-page.delete",
       "config": {
         "policies": []
       }
